@@ -11,7 +11,8 @@ body{
     display:flex;
     justify-content:center;
     align-items: center;
-    background-color: black;
+  background-image: url(https://th.bing.com/th/id/R.1b938d2bd77aa0d2a4cf72a14fb405a4?rik=o3eaQyQzzeH68g&riu=http%3a%2f%2fjewishmuseummd.org%2fwp-content%2fuploads%2f2015%2f01%2fmaps_countries_world.jpg&ehk=W0WIrzh3UvGbj0WgsxATWWpK9nSSVMkazMsiQAKQYtU%3d&risl=1&pid=ImgRaw&r=0);
+  
 }
 .container{
     width:400px;
@@ -19,6 +20,7 @@ body{
     background-color: white;
     border-radius: 12px;
     padding:28px
+    
 }
 .search{
     width:100%;
@@ -75,3 +77,6 @@ background-color: rgb(209, 233, 233);
 .location-not-found{
     display: none;
 }
+
+
+
