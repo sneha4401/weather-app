@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet"href="style.css">
+    <script src="https://kit.fontawesome.com/5c4cd3132a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+    <div class="search">
+        <input type="text"placeholder="Enter Your Location"class="input-box">
+        <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+    </div>
+        </div>   
+
+        <div class="location-not-found">
+            <h1>Sorry,Location Not Found!!!</h1>
+        </div>
+<div class="weather-body">
+    <img src="https://th.bing.com/th/id/R.f398c68db18f0890c6b5e251cd0bbbf0?rik=zJSnGI8YeVRT%2bA&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2009%2f10%2fpartly-cloudy-weather-icon_79074.jpg&ehk=xIs%2bpPK0HHQB9Su1oDbZGo6T%2bOnveZHPyQMhyFrZxfc%3d&risl=&pid=ImgRaw&r=0" alt="weather" class="weather-img">
+    <div class="weather-box">
+        <p class="temperature">0<sup>°C</sup></p>
+        <p class="description">Light rain</p>
+    </div>
+
+
+    <div class="weather-details">
+        <div class="humidity">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="text">
+                <span id="humidity">45%</span>
+                <p>Humidity</p>
+            </div>
+        </div>
+
+        <div class="wind">
+            <i class="fa-solid fa-wind"></i>
+            <div class="text">
+                <span id="wind">45%</span>
+                <p>Wind</p>
+            </div>
+        </div>
+    </div>
+</div>
+ </div>
+</body>
+</html>
+<script src="./java.js"></script>
